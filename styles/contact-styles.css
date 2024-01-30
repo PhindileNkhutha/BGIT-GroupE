@@ -8,7 +8,6 @@
 }
 
 * {
-  font-family: "Playfair Display", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -40,6 +39,31 @@ html::-webkit-scrollbar-thumb {
 section {
   padding: 3rem 7%;
 }
+/* nav */
+.mainnav,
+.mainnav a.navbar-brand i,
+.mainnav .navbar-nav .nav-link,
+.mainnav .input-group input,
+.mainnav .input-group-text i {
+  font-size: 1.5rem;
+}
+
+.mainnav a.navbar-brand {
+  font-size: 1.9rem;
+  
+}
+.mainnav .active {
+  color:#ef5068 !important;
+}
+
+.mainnav .active::after {
+  content: "";
+  background-color:#ef5068;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+}
+
 
 /* about */
 
@@ -50,6 +74,7 @@ section {
   text-align: center;
 }
 .read-more-btn {
+  
   margin-top: 1rem;
   background: #ef5068;
   color: #fff;
@@ -122,6 +147,7 @@ section {
 }
 
 .heading {
+  font-family: "Playfair Display", sans-serif;
   font-weight: bolder;
 }
 
@@ -182,6 +208,7 @@ section {
 
 .contact .row form .inputBox input,
 .contact .row form textarea {
+  font-family: "Playfair Display", sans-serif;
   padding: 1rem;
   margin: 1rem 0;
   font-size: 1.7rem;
@@ -200,6 +227,7 @@ section {
 }
 
 .message-btn {
+  font-family: "Playfair Display", sans-serif;
   margin-top: 1rem;
   background: #ef5068;
   color: #fff;
@@ -241,15 +269,16 @@ section {
 
 /* footer */
 
-.footer {
+/* .footer {
   background: #eee5e6;
   text-align: center;
-}
-.footer .credit {
-  font-size: 2rem;
-  color: var(--black);
+} */
+.credit { 
+  font-weight: light;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.5rem;
   padding: 1.5rem;
-  font-weight: lighter;
+  text-align: center; 
 }
 
 @media (max-width: 991px) {
