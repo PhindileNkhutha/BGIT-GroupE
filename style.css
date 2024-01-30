@@ -9,6 +9,45 @@ body a {
   text-decoration: none;
 }
 
+.container-fluid {
+  /* background-color: #F5F1F1; */
+  font-family: 'Poppins', sans-serif;
+}
+
+#background-image {
+  background-size: 100vw;
+}
+
+.nav-link:hover {
+  background-color: #f2c8c8;
+  color: white;
+}
+
+h1 {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #7F4343;
+  -webkit-text-stroke-width: 3px;
+}
+
+#button-home {
+  background-color: #7F4343;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#button-home:hover {
+  background-color: black;
+  color: white;
+  
+}
+
+#button-home:active {
+  background-color: black;
+}
 .mainnav .active {
   color: #a50505 !important;
 }
