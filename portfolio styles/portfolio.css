@@ -3,7 +3,7 @@ body {
 }
 
 /* styles for portfolio */
-.nav-link:active {
+.nav-link.active {
   color: #7f4343;
 }
 .bg-custom {
@@ -15,6 +15,7 @@ body {
 .card {
   position: relative;
 }
+
 
 .toggle-content.active {
   display: block;

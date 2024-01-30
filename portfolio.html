@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="./styles/portfolio.css">
+  <link rel="stylesheet" href="./portfolio styles/portfolio.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -72,228 +72,223 @@
   <!-- intro paragraph End -->
 
 
-  
-
   <!-- Albums Start -->
-  <div class="container-fluid mt-3">
+  <div class="container-fluid mt-3 ">
     <div class="row row-cols-1 row-cols-md-3  row-cols-sm-1  row-cols-lg-5 g-4 d-flex">
       <div class="col text-center">
         <div class="card">
           <img src="/assets/Be more.jpg" class="card-img-top" alt="...">
           <div class="card-body">
+            <h5 class="card-title bg-custom">Be More</h5 </div>
+            <div class="card-footer">
+              <div class="toggle-container">
+                <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
+                <div class="toggle-content hidden">
 
-            <h5 class="card-title bg-custom">Be More</h5      
+                  <ol class="fw-bold">
+                    <li class="fw-bold">Into the sun.</li>
+                    <li class="fw-bold">I will find you!</li>
+                    <li class="fw-bold">Hold my hand.</li>
+                    <li class="fw-bold">1000 stars</li>
+                    <li class="fw-bold">Be more</li>
+                    <li class="fw-bold">All of me</li>
+                  </ol>
+                  <button class="close-button" onclick="closeContent(this)">Close</button>
 
-          </div>
-          <div class="card-footer">
-            <div class="toggle-container">
-              <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
-              <div class="toggle-content hidden">
-
-                <ol class="fw-bold">
-                  <li class="fw-bold">Into the sun.</li>
-                  <li class="fw-bold">I will find you!</li>
-                  <li class="fw-bold">Hold my hand.</li>
-                  <li class="fw-bold">1000 stars</li>
-                  <li class="fw-bold">Be more</li>
-                  <li class="fw-bold">All of me</li>
-                </ol>
-                <button class="close-button" onclick="closeContent(this)">Close</button>
-
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
 
 
-      
-
-      <div class="col text-center">
-        <div class="card">
-          <img src="/assets/Freedom.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-
-            <h5 class="card-title bg-custom">Freedom</h5>
-
-           
-
-          </div>
-          <div class="card-footer">
-            <div class="toggle-container">
-              <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
-              <div class="toggle-content hidden">
-                <ol>
-
-                  <li class="fw-bold">Young.</li>
-                  <li class="fw-bold">Sunrise!</li>
-                  <li class="fw-bold">Sweet Caroline.</li>
-                  <li class="fw-bold">Unforgettable</li>
-                  <li class="fw-bold">Valentine.</li>
-                  <li class="fw-bold">Free Bird.</li>
-                  <li class="fw-bold">Wind of Change.</li>
 
 
-                </ol>
-                <button class="close-button" onclick="closeContent(this)">Close</button>
+        <div class="col text-center">
+          <div class="card">
+            <img src="/assets/Freedom.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+
+              <h5 class="card-title bg-custom">Freedom</h5>
+
+
+
+            </div>
+            <div class="card-footer">
+              <div class="toggle-container">
+                <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
+                <div class="toggle-content hidden">
+                  <ol>
+
+                    <li class="fw-bold">Young.</li>
+                    <li class="fw-bold">Sunrise!</li>
+                    <li class="fw-bold">Sweet Caroline.</li>
+                    <li class="fw-bold">Unforgettable</li>
+                    <li class="fw-bold">Valentine.</li>
+                    <li class="fw-bold">Free Bird.</li>
+                    <li class="fw-bold">Wind of Change.</li>
+
+
+                  </ol>
+                  <button class="close-button" onclick="closeContent(this)">Close</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="col text-center">
-        <div class="card">
-          <img src="/assets/crying.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
+        <div class="col text-center">
+          <div class="card">
+            <img src="/assets/crying.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
 
-            <h5 class="card-title bg-custom">Heart Break</h5>
+              <h5 class="card-title bg-custom">Heart Break</h5>
 
-      
 
-          </div>
-          <div class="card-footer">
-            <div class="toggle-container">
-              <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
-              <div class="toggle-content hidden">
-                <ol>
 
-                  <li class="fw-bold">I will survive</li>
-                  <li class="fw-bold">Irreplaceable</li>
-                  <li class="fw-bold">All too well.</li>
-                  <li class="fw-bold">You Oughta know</li>
-                  <li class="fw-bold">I will always love u</li>
-                  <li class="fw-bold">All i do is cry</li>
-                  <li class="fw-bold">I have nothing</li>
+            </div>
+            <div class="card-footer">
+              <div class="toggle-container">
+                <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
+                <div class="toggle-content hidden">
+                  <ol>
 
- 
+                    <li class="fw-bold">I will survive</li>
+                    <li class="fw-bold">Irreplaceable</li>
+                    <li class="fw-bold">All too well.</li>
+                    <li class="fw-bold">You Oughta know</li>
+                    <li class="fw-bold">I will always love u</li>
+                    <li class="fw-bold">All i do is cry</li>
+                    <li class="fw-bold">I have nothing</li>
 
-                </ol>
-                <button class="close-button" onclick="closeContent(this)">Close</button>
+
+
+                  </ol>
+                  <button class="close-button" onclick="closeContent(this)">Close</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
 
 
-      <div class="col text-center">
-        <div class="card">
-          <img src="/assets/dandelions.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
+        <div class="col text-center">
+          <div class="card">
+            <img src="/assets/dandelions.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
 
-            <h5 class="card-title bg-custom">Dandelions</h5>
+              <h5 class="card-title bg-custom">Dandelions</h5>
 
-            
 
-          </div>
-          <div class="card-footer">
-            <div class="toggle-container">
-              <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
-              <div class="toggle-content hidden">
-                <ol>
 
-                  <li class="fw-bold">Life is a flower.</li>
-                  <li class="fw-bold">Kiss from a Rose!</li>
-                  <li class="fw-bold">Build Me Up Buttercup.</li>
-                  <li v>Slip On Through</li>
-                  <li class="fw-bold">All I Wanna Do</li>
-                  <li class="fw-bold">Tears in the Morning</li>
-                  <li class="fw-bold">This Whole World</li>
+            </div>
+            <div class="card-footer">
+              <div class="toggle-container">
+                <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
+                <div class="toggle-content hidden">
+                  <ol>
 
-                  
-                </ol>
-                <button class="close-button" onclick="closeContent(this)">Close</button>
+                    <li class="fw-bold">Life is a flower.</li>
+                    <li class="fw-bold">Kiss from a Rose!</li>
+                    <li class="fw-bold">Build Me Up Buttercup.</li>
+                    <li v>Slip On Through</li>
+                    <li class="fw-bold">All I Wanna Do</li>
+                    <li class="fw-bold">Tears in the Morning</li>
+                    <li class="fw-bold">This Whole World</li>
+
+
+                  </ol>
+                  <button class="close-button" onclick="closeContent(this)">Close</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
 
-      <div class="col text-center">
-        <div class="card">
-          <img src="/assets/cassette.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
+        <div class="col text-center">
+          <div class="card">
+            <img src="/assets/cassette.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
 
-            
-            <h5 class="card-title bg-custom">Remember</h5>
 
-            
-            
+              <h5 class="card-title bg-custom">Remember</h5>
 
-          </div>
-          <div class="card-footer">
-            <div class="toggle-container">
-              <a class="text-secondary text-decoration-none" role='button' onclick="toggleInfo(this)">Tracks</a>
-              <div class="toggle-content hidden">
-                <ol>
 
-                  <li class="fw-bold">Memories.</li>
-                  <li class="fw-bold">Photograph!!</li>
-                  <li class="fw-bold">Glory Days.</li>
-                  <li class="fw-bold">I will Remember You</li>
-                  <li class="fw-bold">When we were Young</li>
-                  <li class="fw-bold">Yesterday</li>
 
-                </ol>
-                <button class="close-button" onclick="closeContent(this)">Close</button>
+
+            </div>
+            <div class="card-footer">
+              <div class="toggle-container">
+                <a class="text-secondary text-decoration-none" role='button' onclick="toggleInfo(this)">Tracks</a>
+                <div class="toggle-content hidden">
+                  <ol>
+
+                    <li class="fw-bold">Memories.</li>
+                    <li class="fw-bold">Photograph!!</li>
+                    <li class="fw-bold">Glory Days.</li>
+                    <li class="fw-bold">I will Remember You</li>
+                    <li class="fw-bold">When we were Young</li>
+                    <li class="fw-bold">Yesterday</li>
+
+                  </ol>
+                  <button class="close-button" onclick="closeContent(this)">Close</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Album End -->
+    <!-- Album End -->
 
-  <div id="upArrow" class="up-arrow">&uarr;</div>
-  <!-- Footer Start -->
-  <footer class="bg-light footer text-center">
-    <!-- Copyright Start -->
-    <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2024 Emily Music.All rights reserved.
-      <!-- <a class="text-body text-decoration-none">BGIT GROUP E</a> -->
+    <div id="upArrow" class="up-arrow">&uarr;</div>
+    <!-- Footer Start -->
+    <footer class="bg-light footer text-center">
+      <!-- Copyright Start -->
+      <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Emily Music.All rights reserved.
+        <!-- <a class="text-body text-decoration-none">BGIT GROUP E</a> -->
 
 
- 
-    </div>
-    <!-- Copyright End -->
-  </footer>
-  <!-- footer End -->
 
-    
+      </div>
+      <!-- Copyright End -->
+    </footer>
+    <!-- footer End -->
 
-  <!-- javascript function for the tracks to show more info when toggled -->
-  <script>
-    function toggleInfo(element) {
-      let container = element.parentElement.querySelector('.toggle-content');
-      container.classList.toggle('active');
-    }
-    // function to close once the tracks are displayed
-    function closeContent(button) {
-      let container = button.parentElement;
-      container.classList.remove('active');
-    }
-    document.addEventListener('DOMContentLoaded', function () {
-      let upArrow = document.getElementById('upArrow');
 
-      upArrow.addEventListener('click', function () {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
+
+    <!-- javascript function for the tracks to show more info when toggled -->
+    <script>
+      function toggleInfo(element) {
+        let container = element.parentElement.querySelector('.toggle-content');
+        container.classList.toggle('active');
+      }
+      // function to close once the tracks are displayed
+      function closeContent(button) {
+        let container = button.parentElement;
+        container.classList.remove('active');
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        let upArrow = document.getElementById('upArrow');
+
+        upArrow.addEventListener('click', function () {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
         });
       });
-    });
 
-  </script>
+    </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="./scripts/script.js"></script> <!-- Include your script file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <script src="./scripts/script.js"></script> <!-- Include your script file -->
 </body>
 
 </html>
