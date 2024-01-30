@@ -6,15 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
   <!-- nav Start -->
-  <nav class="navbar navbar-expand-md bg-custom">
+  <nav class="navbar navbar-expand-md bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html">GroupE</a>
+      <a class="navbar-brand" href="./index.html">
+        <i class='fas fa-music'></i>Emily Music
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,20 +41,21 @@
     </div>
   </nav>
   <!-- nav End -->
-  
+
   <!-- header Start -->
   <div class="container">
     <div class="row mt-3">
       <div class="col ">
-        <h3 class="text-bold text-center text-secondary">Album Collection</h3>
+        <h3 class="text-bold text-center text-secondary bg-custom">Album Collection</h3>
       </div>
     </div>
   </div>
   <!-- header End  -->
-  
+
   <!-- intro paragraph Start -->
   <div class="aboutEmily mx-2">
-    <p>
+    <p >
+   <small>
       Welcome to the musical world of Emily! Dive into a captivating journey through my albums, where each melody tells
       a
       story and every lyric paints a vivid picture. From heartfelt ballads to upbeat anthems, my music reflects the
@@ -59,10 +63,11 @@
       life's experiences, emotions, and aspirations. Click on the 'Tracks' button to explore more of the melodies that
       accompany these tales, as we navigate through moments of love, hope, and resilience. Join me as we embark on an
       unforgettable musical adventure that resonates with the rhythm of your soul.
+   </small>
     </p>
   </div>
   <!-- intro paragraph End -->
-  
+
   <!-- Albums Start -->
   <div class="container-fluid mt-3">
     <div class="row row-cols-1 row-cols-md-3  row-cols-sm-1  row-cols-lg-5 g-4">
@@ -70,19 +75,19 @@
         <div class="card">
           <img src="/assets/Be more.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Be More</h5>
+            <h5 class="card-title bg-custom">Be More</h5>
           </div>
           <div class="card-footer">
             <div class="toggle-container">
               <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
               <div class="toggle-content hidden">
-                <ol>
-                  <li>Into the sun.</li>
-                  <li>I will find you!</li>
-                  <li>Hold my hand.</li>
-                  <li>1000 stars</li>
-                  <li>Be more</li>
-                  <li>All of me</li>
+                <ol class="fw-bold">
+                  <li class="fw-bold">Into the sun.</li>
+                  <li class="fw-bold">I will find you!</li>
+                  <li class="fw-bold">Hold my hand.</li>
+                  <li class="fw-bold">1000 stars</li>
+                  <li class="fw-bold">Be more</li>
+                  <li class="fw-bold">All of me</li>
                 </ol>
                 <button class="close-button" onclick="closeContent(this)">Close</button>
 
@@ -91,25 +96,25 @@
           </div>
         </div>
       </div>
-      
+
       <div class="col text-center">
         <div class="card">
           <img src="/assets/Freedom.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Freedom</h5>
+            <h5 class="card-title bg-custom">Freedom</h5>
           </div>
           <div class="card-footer">
             <div class="toggle-container">
               <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
               <div class="toggle-content hidden">
                 <ol>
-                  <li>Young.</li>
-                  <li>Sunrise!</li>
-                  <li>Sweet Caroline.</li>
-                  <li>Unforgettable</li>
-                  <li>Valentine.</li>
-                  <li>Free Bird.</li>
-                  <li>Wind of Change.</li>
+                  <li class="fw-bold">Young.</li>
+                  <li class="fw-bold">Sunrise!</li>
+                  <li class="fw-bold">Sweet Caroline.</li>
+                  <li class="fw-bold">Unforgettable</li>
+                  <li class="fw-bold">Valentine.</li>
+                  <li class="fw-bold">Free Bird.</li>
+                  <li class="fw-bold">Wind of Change.</li>
                 </ol>
                 <button class="close-button" onclick="closeContent(this)">Close</button>
               </div>
@@ -117,25 +122,25 @@
           </div>
         </div>
       </div>
-      
+
       <div class="col text-center">
         <div class="card">
           <img src="/assets/crying.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Heart Break</h5>
+            <h5 class="card-title bg-custom">Heart Break</h5>
           </div>
           <div class="card-footer">
             <div class="toggle-container">
               <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
               <div class="toggle-content hidden">
                 <ol>
-                  <li>I will survive</li>
-                  <li>Irreplaceable</li>
-                  <li>All too well.</li>
-                  <li>You Oughta know</li>
-                  <li>I will always love u</li>
-                  <li>All i do is cry</li>
-                  <li>I have nothing</li>
+                  <li class="fw-bold">I will survive</li>
+                  <li class="fw-bold">Irreplaceable</li>
+                  <li class="fw-bold">All too well.</li>
+                  <li class="fw-bold">You Oughta know</li>
+                  <li class="fw-bold">I will always love u</li>
+                  <li class="fw-bold">All i do is cry</li>
+                  <li class="fw-bold">I have nothing</li>
                 </ol>
                 <button class="close-button" onclick="closeContent(this)">Close</button>
               </div>
@@ -143,25 +148,25 @@
           </div>
         </div>
       </div>
-      
+
       <div class="col text-center">
         <div class="card">
           <img src="/assets/dandelions.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Dandelions</h5>
+            <h5 class="card-title bg-custom">Dandelions</h5>
           </div>
           <div class="card-footer">
             <div class="toggle-container">
               <a class="text-secondary text-decoration-none " role='button' onclick="toggleInfo(this)">Tracks</a>
               <div class="toggle-content hidden">
                 <ol>
-                  <li>Life is a flower.</li>
-                  <li>Kiss from a Rose!</li>
-                  <li>Build Me Up Buttercup.</li>
-                  <li>Slip On Through</li>
-                  <li>All I Wanna Do</li>
-                  <li>Tears in the Morning</li>
-                  <li>This Whole World</li>
+                  <li class="fw-bold">Life is a flower.</li>
+                  <li class="fw-bold">Kiss from a Rose!</li>
+                  <li class="fw-bold">Build Me Up Buttercup.</li>
+                  <li v>Slip On Through</li>
+                  <li class="fw-bold">All I Wanna Do</li>
+                  <li class="fw-bold">Tears in the Morning</li>
+                  <li class="fw-bold">This Whole World</li>
                 </ol>
                 <button class="close-button" onclick="closeContent(this)">Close</button>
               </div>
@@ -169,24 +174,24 @@
           </div>
         </div>
       </div>
-      
+
       <div class="col text-center">
         <div class="card">
           <img src="/assets/cassette.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Remember</h5>
+            <h5 class="card-title bg-custom">Remember</h5>
           </div>
           <div class="card-footer">
             <div class="toggle-container">
               <a class="text-secondary text-decoration-none" role='button' onclick="toggleInfo(this)">Tracks</a>
               <div class="toggle-content hidden">
                 <ol>
-                  <li>Memories.</li>
-                  <li>Photograph!!</li>
-                  <li>Glory Days.</li>
-                  <li>I will Remember You</li>
-                  <li>When we were Young</li>
-                  <li>Yesterday</li>
+                  <li class="fw-bold">Memories.</li>
+                  <li class="fw-bold">Photograph!!</li>
+                  <li class="fw-bold">Glory Days.</li>
+                  <li class="fw-bold">I will Remember You</li>
+                  <li class="fw-bold">When we were Young</li>
+                  <li class="fw-bold">Yesterday</li>
                 </ol>
                 <button class="close-button" onclick="closeContent(this)">Close</button>
               </div>
@@ -197,13 +202,13 @@
     </div>
   </div>
   <!-- Album End -->
-
+  <div id="upArrow" class="up-arrow">&uarr;</div>
   <!-- Footer Start -->
-  <footer class="bg-custom footer text-center">
+  <footer class="bg-light footer text-center">
     <!-- Copyright Start -->
     <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2020 Copyright:
-      <a class="text-body text-decoration-none">BGIT GROUP E</a>
+      © 2024 Emily Music.All rights reserved.
+      <!-- <a class="text-body text-decoration-none">BGIT GROUP E</a> -->
     </div>
     <!-- Copyright End -->
   </footer>
@@ -220,6 +225,17 @@
       let container = button.parentElement;
       container.classList.remove('active');
     }
+    document.addEventListener('DOMContentLoaded', function () {
+      let upArrow = document.getElementById('upArrow');
+
+      upArrow.addEventListener('click', function () {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    });
+
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
