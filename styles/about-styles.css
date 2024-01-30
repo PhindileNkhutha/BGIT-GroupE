@@ -2,7 +2,7 @@
 
 :root {
   --main-color: #022988;
-  --primary-color: #ef5068;
+  --primary-color: #7f4343;
   --black: #13131a;
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -50,20 +50,18 @@ section {
 
 .mainnav a.navbar-brand {
   font-size: 1.9rem;
-  
 }
 .mainnav .active {
-  color:#ef5068 !important;
+  color: #7f4343 !important;
 }
 
 .mainnav .active::after {
   content: "";
-  background-color:#ef5068;
+  background-color: #7f4343;
   height: 2px;
   display: block;
   margin-top: 5px;
 }
-
 
 /* about */
 
@@ -73,10 +71,15 @@ section {
   color: var(--primary-color);
   text-align: center;
 }
+
+li {
+    font-family: "Playfair Display", sans-serif;
+}
+
 .read-more-btn {
   font-family: "Playfair Display", sans-serif;
   margin-top: 1rem;
-  background: #ef5068;
+  background: #7f4343;
   color: #fff;
   display: inline-block;
   border-radius: 5rem;
@@ -277,12 +280,12 @@ section {
   background: #eee5e6;
   text-align: center;
 } */
-.credit { 
+.credit {
   font-weight: light;
   font-family: "Playfair Display", sans-serif;
   font-size: 1.5rem;
   padding: 1.5rem;
-  text-align: center; 
+  text-align: center;
 }
 
 @media (max-width: 991px) {
