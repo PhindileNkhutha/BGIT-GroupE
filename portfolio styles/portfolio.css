@@ -3,9 +3,11 @@ body {
 }
 
 /* styles for portfolio */
-.nav-link.active {
-  color: #7f4343;
+
+.navbar{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+
 .bg-custom {
   color: #7f4343 !important;
 }
