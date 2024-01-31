@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="./portfolio styles/portfolio.css">
+  <link rel="stylesheet" type="text/css" href="portfolio styles/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="portfolio styles/bootstrap-icons.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -14,15 +18,25 @@
 <body>
   <!-- nav Start -->
 
-  <nav class="navbar  navbar-expand-md navbar-light " style='height: 45px;'>
+ <nav class="mainnav shadow navbar-expand-md navbar navbar-light bg-light  fixed-top" style="min-width: 350px">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html">
-        <i class='fas fa-music'></i>Emily Music
+        <i class="fas fa-music"></i> Emily Music
       </a>
+
+      <div>
+        <div class="input-group ">
+          <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+          <span class="bg-black text-white border-0 input-group-text" id="basic-addon2"><i
+              class="bi bi-search"></i></span>
+        </div>
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -37,9 +51,6 @@
           <li class="nav-item">
             <a class="nav-link" href="./contact.html">Contact</a>
           </li>
-        </ul>
-      </div>
-    </div>
   </nav>
   <!-- nav End -->
 
@@ -241,7 +252,7 @@
   <footer class="bg-light footer text-center">
     <!-- Copyright Start -->
     <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2024 Emily Music.All rights reserved.
+      © 2024 Emily Music. All Rights reserved.
       <!-- <a class="text-body text-decoration-none">BGIT GROUP E</a> -->
 
 
@@ -276,11 +287,10 @@
     });
 
   </script>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-  <script src="./scripts/script.js"></script> <!-- Include your script file -->
+  <script src="./scripts/script.js"></script> 
 </body>
 
 </html>

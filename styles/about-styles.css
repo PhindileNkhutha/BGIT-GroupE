@@ -2,7 +2,7 @@
 
 :root {
   --main-color: #022988;
-  --primary-color: #7F4343;
+  --primary-color: #7f4343;
   --black: #13131a;
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -33,7 +33,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
+  background: #a50505;
 }
 
 section {
@@ -45,38 +45,35 @@ section {
 .mainnav .navbar-nav .nav-link,
 .mainnav .input-group input,
 .mainnav .input-group-text i {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .mainnav a.navbar-brand {
   font-size: 1.9rem;
-  
 }
 .mainnav .active {
-  color:#7F4343 !important;
+  color: #a50505 !important;
 }
 
 .mainnav .active::after {
   content: "";
-  background-color:#7F4343;
+  background-color: #a50505;
   height: 2px;
   display: block;
   margin-top: 5px;
 }
 
-
 /* about */
 
 .heading {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 4rem 0;
   color: var(--primary-color);
   text-align: center;
 }
 .read-more-btn {
-  
   margin-top: 1rem;
-  background: #7F4343;
+  background: #7f4343;
   color: #fff;
   display: inline-block;
   border-radius: 5rem;
@@ -233,7 +230,7 @@ section {
 .message-btn {
   font-family: "Playfair Display", sans-serif;
   margin-top: 1rem;
-  background:#7F4343;
+  background: #7f4343;
   color: #fff;
   display: inline-block;
   border-radius: 5rem;
@@ -277,12 +274,10 @@ section {
   background: #eee5e6;
   text-align: center;
 } */
-.credit { 
-  font-weight: light;
-  font-family: "Playfair Display", sans-serif;
-  font-size: 1.5rem;
+.credit {
+  font-size: 1.6rem;
   padding: 1.5rem;
-  text-align: center; 
+  text-align: center;
 }
 
 @media (max-width: 991px) {

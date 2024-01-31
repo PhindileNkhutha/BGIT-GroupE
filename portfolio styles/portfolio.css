@@ -2,9 +2,28 @@ body {
   box-sizing: border-box;
 }
 
-/* styles for portfolio */
+/* styles for nav */
+.mainnav .active {
+  color: #a50505 !important;
+}
 
-.navbar{
+.mainnav .active::after {
+  content: "";
+  background-color: #a50505;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+}
+
+/* styles for portfolio */
+.container {
+  margin-top: 5rem;
+}
+
+h3 {
+  font-family: "Playfair Display", sans-serif;
+}
+.navbar {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -17,7 +36,6 @@ body {
 .card {
   position: relative;
 }
-
 
 .toggle-content.active {
   display: block;
